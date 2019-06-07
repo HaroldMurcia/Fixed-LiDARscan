@@ -1,0 +1,23 @@
+<head>
+        <title>{{ title }}</title>
+</head>
+{% extends "main.html" %}
+{% block title%} Escanear {% endblock %}
+{% block content %}
+	<form action="" method="post">
+		<h1>Ingrese los datos requeridos a continuacion...</h1>
+		<label for="name">Nombre: </label>
+		<input type="text" id="name" name="name" /><br>
+		<label for="inf">Limite Inferior: </label>
+		<input type="text" id="inf" name="inf" /><br>
+		<label for="sup">Limite Superior: </label>
+		<input type="text" id="sup" name="sup" /><br>
+		<label for="pitch">Resolución de inclinacion: </label>
+		<input type="text" id="pitch" name="pitch" /><br>
+		<label for="yaw">Resolución de rotacion: </label>
+		<input type="text" id="yaw" name="yaw" /><br>
+		<label for="email">Correo Electronico (Email): </label>
+		<input type="text" id="email" name="email" /><br> 	
+		<input type="submit" id="send-signup" value="Escanear" />
+	</form>
+{% endblock %}

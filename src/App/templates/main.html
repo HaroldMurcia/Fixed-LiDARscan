@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+
+<head>
+	<title>{{ title }}</title>
+</head>
+{% block content %}
+	<h1>Sistema de recontruccion 3D</h1>
+	<h2>Click para realizar una reconstruccion </h2>
+	<input type="button" onclick="location.href='/scan'" value="Scan">
+	<h2>Click para calibrar el sistema</h2>
+	<form action="" method="post">
+	<input type="submit" name="calibrar" value="Calibrar">
+	</form>
+{% endblock %}
+</html>
