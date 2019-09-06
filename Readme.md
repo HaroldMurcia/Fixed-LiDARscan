@@ -1,7 +1,17 @@
 # Fixed LiDAR Scan
 This repository presents the software of a three-dimensional laser range finder based on a 2D laser scanner Hokuyo URG-04LX-UG01 and two step motors.
 
-* Read the paper [Here](https://github.com/HaroldMurcia/Fixed-LiDARscan).
+* Read the paper [Here](https://github.com/HaroldMurcia/Fixed-LiDARscan), please cite:
+
+@inproceedings{murcia20183d,
+  title={3D Scene Reconstruction Based on a 2D Moving LiDAR},
+  author={Murcia, Harold F and Monroy, Maria Fernanda and Mora, Luis Fernando},
+  booktitle={International Conference on Applied Informatics},
+  pages={295--308},
+  year={2018},
+  organization={Springer}
+}
+
 * Watch the Youtube video [Here](https://www.youtube.com/watch?v=dIGApJkr8_k)
 
 ### Description:
