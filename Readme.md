@@ -3,14 +3,14 @@ This repository presents the software of a three-dimensional laser range finder 
 
 * Read the paper [Here](https://github.com/HaroldMurcia/Fixed-LiDARscan), please cite:
 
-@inproceedings{murcia20183d,
-  title={3D Scene Reconstruction Based on a 2D Moving LiDAR},
-  author={Murcia, Harold F and Monroy, Maria Fernanda and Mora, Luis Fernando},
-  booktitle={International Conference on Applied Informatics},
-  pages={295--308},
-  year={2018},
-  organization={Springer}
-}
+	@inproceedings{murcia20183d,
+	  title={3D Scene Reconstruction Based on a 2D Moving LiDAR},
+	  author={Murcia, Harold F and Monroy, Maria Fernanda and Mora, Luis Fernando},
+	  booktitle={International Conference on Applied Informatics},
+	  pages={295--308},
+	  year={2018},
+	  organization={Springer}
+	}
 
 * Watch the Youtube video [Here](https://www.youtube.com/watch?v=dIGApJkr8_k)
 
